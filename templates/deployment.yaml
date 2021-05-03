@@ -16,7 +16,7 @@ spec:
     spec: # Spec for the containers that will be run in the Pods
       containers:
         - name: whoami
-          image: ghcr.io/eastmon94/whoami:f49d7befe10501d6b4df27cdd4e7dec6eb33a1c2
+          image: ghcr.io/eastmon94/whoami:e279bb4d94488252645f0f6ecf6cc13135e2b0aa
           # imagePullPolicy: Never
           ports:
             - name: http
